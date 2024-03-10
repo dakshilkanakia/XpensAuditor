@@ -85,7 +85,7 @@ public class SMSReaderActivity extends AppCompatActivity {
                                     amt = Double.parseDouble(words[i].substring(1));
                                     flamt = true;
                                 }
-                                if (words[i].equals("at")) {
+                                if ("at".equals(words[i])) {
                                     shopName = words[i + 1];
                                     flsh = true;
                                 }
